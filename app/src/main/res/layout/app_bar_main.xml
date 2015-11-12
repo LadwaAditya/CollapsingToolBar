@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<android.support.design.widget.AppBarLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/appbar"
     android:layout_width="match_parent"
@@ -36,6 +35,8 @@
             android:layout_height="?attr/actionBarSize"
             app:layout_collapseMode="pin"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
     </android.support.design.widget.CollapsingToolbarLayout>
 
     <android.support.design.widget.TabLayout
@@ -44,5 +45,4 @@
         android:layout_height="?attr/actionBarSize"
         android:layout_gravity="bottom"
         app:layout_scrollFlags="scroll" />
-
 </android.support.design.widget.AppBarLayout>
